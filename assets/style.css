@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+header {
+    background:linear-gradient(to right, blue,white);
+    text-align: center;
+    color:azure;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+aside{
+    display: flex;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
